@@ -26,19 +26,19 @@ st.subheader('USA / EUROPE / JAPON', divider='rainbow')
 st.write("AG BONNET - 04/2024")
 
 # Mettre du texte explicatif : 
-st.write('Présentation des donnnées cars.csv :')
+st.write("Présentation des donnnées cars.csv :")
 
-st.write('Le dataset fournit des spécifications techniques sur les modèles de voitures produits sur la période de 1971 à 1983.')
-st.write('Description des variables :)
+st.write("Le dataset fournit des spécifications techniques sur les modèles de voitures produits sur la période de 1971 à 1983.")
+st.write("Description des variables :)
 
-st.write('mpg (miles per gallon) : la consommation d'essence d'une voiture')
-st.write('cylinders: le nombre de cylindres du moteur')
-st.write('displacement: le volume interne du moteur à combustion (souvent en cm3)')
-st.write('horsepower: la puissance du moteur en chevaux')
-st.write('weight: le poids de la voiture (en pounds)')
-st.write('acceleration: la durée en seconde pour passer de l'arrêt (0 km/h) à 60 mph (environ 97 km/h)')
-st.write('year: l'année de production')
-st.write('continent : région de production')
+st.write("mpg (miles per gallon) : la consommation d'essence d'une voiture")
+st.write("cylinders: le nombre de cylindres du moteur")
+st.write("displacement: le volume interne du moteur à combustion (souvent en cm3)")
+st.write("horsepower: la puissance du moteur en chevaux")
+st.write("weight: le poids de la voiture (en pounds)")
+st.write("acceleration: la durée en seconde pour passer de l'arrêt (0 km/h) à 60 mph (environ 97 km/h)")
+st.write("year: l'année de production")
+st.write("continent : région de production")
     
 
 
