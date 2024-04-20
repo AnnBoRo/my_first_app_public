@@ -1,10 +1,19 @@
 ##############################################################################################
 #
-# Ma PREMIER APPLICATION WEB
+# Ma PREMIERE APPLICATION WEB
+#Challenge :
 #
+#A partir du dataset des voitures, tu afficheras :
+#
+#Une analyse de corrélation et de distribution grâce à différents graphiques et des commentaires.
+#Des boutons doivent être présents pour pouvoir filtrer les résultats par région (US / Europe / Japon).
+#L'application doit être disponible sur la plateforme de partage.
+#
+#Publie ensuite ici le lien de ton application. Le lien doit ressembler à https://share.streamlit.io/wilder/streamlit_app/#my_streamlit_app.py.
 ##############################################################################################
 
 import streamlit as st
+#import numpy as np
 import pandas as pd
 import seaborn as sns
 
@@ -22,29 +31,13 @@ df_cars = pd.read_csv(link)
 st.write(df_cars)
 
 # Here we use "magic commands":
-df_weather
+df_cars
 
-
-## Affichage des graphiques
-# Line Chart
-st.line_chart(df_weather['MAX_TEMPERATURE_C'])
-
-# Heatmap
-#viz_correlation = sns.heatmap(df_weather.corr(), 
-#								center=0,
-#								cmap = sns.color_palette("vlag", as_cmap=True)
-#								)
-#st.pyplot(viz_correlation.figure)
-
-# Application dynamique
-
-import streamlit as st
-
-
-st.title('Hello Wilders, welcome to my application!')
-name = st.text_input("Please give me your name :")
-name_length = len(name)
-st.write("Your name has ",name_length,"characters")
-
+option = st.selectbox(
+   "Origine des voitures",
+   ("US", "Europe", "Japan"),
+   index=None,
+   placeholder="Select contact method...",
+)
 
 
