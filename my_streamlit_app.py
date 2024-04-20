@@ -17,22 +17,23 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 ## 
+link = "https://raw.githubusercontent.com/murpi/wilddata/master/quests/cars.csv"
+df_cars = pd.read_csv(link)
 
 # Ecriture des entetes de la page WEB Application
-st.title('Voitures : USA vs EUROPE vs JAPON')
-st.subheader(' ', divider='rainbow')
+st.title('VOITURE : USA vs EUROPE vs JAPON')
+st.subheader('Modele de voiture de 1971 à 1983', divider='rainbow')
 st.write("AG BONNET - 04/2024")
 
-link = "https://raw.githubusercontent.com/murpi/wilddata/master/quests/cars.csv"
+
 
 option = st.selectbox(
-   "Origine des voitures",
-   ("US", "Europe", "Japan"),
+   "Visualisation par origine",
+   ("US", "Europe", "Japon"),
    index=None,
-   placeholder="Select contact method...",
+   placeholder="choisir une origine...",
 )
 
-df_cars = pd.read_csv(link)
 
 st.write(df_cars)
 
