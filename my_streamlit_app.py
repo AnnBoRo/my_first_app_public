@@ -15,11 +15,11 @@ st.title('Hello Wilders, welcome to my application!')
 st.write("I enjoy to discover streamlit possibilities")
 
 
-link = "https://raw.githubusercontent.com/murpi/wilddata/master/quests/weather2019.csv"
+link = "https://raw.githubusercontent.com/murpi/wilddata/master/quests/cars.csv"
 
-df_weather = pd.read_csv(link)
+df_cars = pd.read_csv(link)
 
-st.write(df_weather)
+st.write(df_cars)
 
 # Here we use "magic commands":
 df_weather
