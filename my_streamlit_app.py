@@ -16,16 +16,12 @@ import streamlit as st
 #import numpy as np
 import pandas as pd
 import seaborn as sns
-
-## Application statique
+## 
 
 # Ecriture des entetes de la page WEB Application
-st.title('Bonjour Wilders, bienvenus dans ma 1ere application!')
+st.title('Voitures : USA vs EUROPE vs JAPON')
 st.subheader(' ', divider='rainbow')
-st.write("I enjoy to discover streamlit possibilities")
-
-st.subheader('This is a subheader with a divider', divider='rainbow')
-st.subheader('_Streamlit_ is :blue[cool] :sunglasses:')
+st.write("AG BONNET - 04/2024")
 
 link = "https://raw.githubusercontent.com/murpi/wilddata/master/quests/cars.csv"
 
