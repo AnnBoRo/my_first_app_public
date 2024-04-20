@@ -29,7 +29,7 @@ st.write("AG BONNET - 04/2024")
 st.write("Présentation des donnnées cars.csv :")
 
 st.write("Le dataset fournit des spécifications techniques sur les modèles de voitures produits sur la période de 1971 à 1983.")
-st.write("Description des variables :)
+st.write("Description des variables :")
 
 st.write("mpg (miles per gallon) : la consommation d'essence d'une voiture")
 st.write("cylinders: le nombre de cylindres du moteur")
