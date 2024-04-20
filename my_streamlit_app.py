@@ -1,15 +1,15 @@
 ##############################################################################################
 #
 # Ma PREMIERE APPLICATION WEB
-#Challenge :
+# Challenge :
 #
-#A partir du dataset des voitures, tu afficheras :
+# A partir du dataset des voitures, tu afficheras :
 #
-#Une analyse de corrélation et de distribution grâce à différents graphiques et des commentaires.
-#Des boutons doivent être présents pour pouvoir filtrer les résultats par région (US / Europe / Japon).
-#L'application doit être disponible sur la plateforme de partage.
+# Une analyse de corrélation et de distribution grâce à différents graphiques et des commentaires.
+# Des boutons doivent être présents pour pouvoir filtrer les résultats par région (US / Europe / Japon).
+# L'application doit être disponible sur la plateforme de partage.
 #
-#Publie ensuite ici le lien de ton application. Le lien doit ressembler à https://share.streamlit.io/wilder/streamlit_app/#my_streamlit_app.py.
+# Publie ensuite ici le lien de ton application. Le lien doit ressembler à https://share.streamlit.io/wilder/streamlit_app/#my_streamlit_app.py.
 ##############################################################################################
 
 import streamlit as st
@@ -20,7 +20,8 @@ import seaborn as sns
 ## Application statique
 
 # Ecriture des entetes de la page WEB Application
-st.title('Hello Wilders, welcome to my application!')
+st.title('Bonjour Wilders, bienvenus dans ma 1ere application!')
+st.subheader(' ', divider='rainbow')
 st.write("I enjoy to discover streamlit possibilities")
 
 st.subheader('This is a subheader with a divider', divider='rainbow')
