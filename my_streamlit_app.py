@@ -115,7 +115,7 @@ st.markdown("Pour l'Europe, l'histogramme présente une courbe de Gauss, cela in
 st.subheader("*Recherche de corrélation*", divider='green')
 clear_figure = True
 fig, ax = plt.subplots(figsize=(10,3))
-ax1 = plt.subplot(1,2,1)
+
 ax1 = sns.heatmap(data.corr(numeric_only=True),
                   cmap=sns.diverging_palette(h_neg=0, h_pos=275, s=70, l=55,as_cmap=True),
                   center = 0,
