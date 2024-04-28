@@ -135,8 +135,8 @@ option2 = st.selectbox(
 )
 
 if option2 == "Poids/mpg":
-  x1 = "hp"
-  y1 = "mpg"
+  x1 = "mpg"
+  y1 = "weightlbs"
   titre = "Corrélation Poids/mpg"
   texte = "Sans surprise, les voitures les plus puissantes qui ont également été produites aux US sont celles qui consomment le plus.  \n  Rappel : **mpg** (miles per gallon) : la consommation d'essence d'une voiture aux US.  \n  **Aux USA**, ils comptent la consommation en miles (environ 1.6 km) par gallon (environ 4.55 litres) : plus une voiture consomme et moins elle a une valeur élevée de mpg.  \n "
 elif option2 == "Poids/Puissance":
